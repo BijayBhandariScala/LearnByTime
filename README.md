@@ -1,2 +1,2 @@
 # LearnByTime
-Idea's
+Developed by : Bijay B. 2020
