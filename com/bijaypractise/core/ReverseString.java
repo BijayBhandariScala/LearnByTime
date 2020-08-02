@@ -5,6 +5,7 @@ public class ReverseString {
     public static void main(String[] args) {
         String text = "I love programming."; //Reverse the String.
         System.out.println(getReverse(text));
+        System.out.println(getStringBuilderWay(text));
     }
 
     public static String getReverse(String str){
@@ -18,5 +19,12 @@ public class ReverseString {
         }
         return stringBuilder.toString();
 
+    }
+
+    //2nd way
+    public static String getStringBuilderWay(String str){
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+        return sb.toString();
     }
 }
