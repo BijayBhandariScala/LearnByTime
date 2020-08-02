@@ -3,8 +3,7 @@ package com.bijaypractise.core;
 public class ReverseString {
 
     public static void main(String[] args) {
-        String text = "I love programming.";
-
+        String text = "I love programming."; //Reverse the String.
         System.out.println(getReverse(text));
     }
 
@@ -15,9 +14,9 @@ public class ReverseString {
 
         for(int i=ch.length-1;i>=0;i--){
             stringBuilder.append(ch[i]);
-            //System.out.println(ch.toString());
+
         }
-        return ch.toString();
+        return stringBuilder.toString();
 
     }
 }
