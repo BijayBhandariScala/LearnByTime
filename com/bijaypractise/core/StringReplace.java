@@ -9,7 +9,7 @@ public class StringReplace {
     /* Using StringBuffer */
 	public static String getFs(String text) {
 
-		char textinput[] = text.toCharArray();
+		char[] textinput = text.toCharArray();
 		StringBuffer sb  = new StringBuffer();
         for (char ch : textinput){
             if(ch=='F' || ch=='f'){
