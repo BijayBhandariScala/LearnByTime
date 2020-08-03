@@ -12,7 +12,8 @@ public class Java8StreamExample {
         list.add("Hello");
         list.add(0 ,"Bijay");
         list.stream()
-                .forEach(p-> System.out.println(p.toString()));
+                .filter(p-> p!="Hello")
+                .forEach(p-> System.out.println(p.toString())); /* (arg)->(body)*/
     }
 
 }
