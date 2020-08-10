@@ -1,5 +1,4 @@
-package com.bijaypractise.core;
-
+package com.bijay.core.java;
 import java.util.HashSet;
 import java.util.Set;
 

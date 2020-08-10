@@ -1,4 +1,4 @@
-package com.bijaypractise.core;
+package com.bijay.core.java;
 
 public class Static {
 	

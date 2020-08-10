@@ -1,4 +1,4 @@
-package com.bijaypractise.core;
+package com.bijay.core.java;
 
 import java.util.ArrayList;
 import java.util.List;
